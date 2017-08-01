@@ -9,9 +9,6 @@
 # the matrix and its inverse
 makeCacheMatrix <- function(x = matrix()) {
 	inverse <- NULL
-	if(is.null(x)){
-		
-	}
 	setMatrix <- function(y){
 	  x <<- y
 	}
